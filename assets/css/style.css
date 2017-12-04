@@ -4,8 +4,8 @@
     src: url('../fonts/First Take - Demo 2.ttf');
 }
 @font-face {
-    font-family: kateceleb;
-    src: url('../fonts/KateCelebration.ttf');
+    font-family: airfly;
+    src: url('../fonts/Airfly-DEMO.ttf');
 }
 @font-face {
     font-family: gothambook;
@@ -87,8 +87,14 @@ a:hover{
 	max-width:100%;
 	}
 @media screen and (min-width: 481px) {
+	.minusmtop{
+		margin-top:-5%!important;
+	}
 }
 @media screen and (max-width: 480px) {
+	.minusmtop{
+		margin-top:0!important;
+	}
 }
 .pos-relative{
 	position:relative;
@@ -130,5 +136,9 @@ a:hover{
 }
 .pull-right{
 	float:right;
+}
+.title-subsec{
+	font-family:airfly;
+	font-size:24pt;
 }
 /*!misc*/
