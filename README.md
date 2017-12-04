@@ -1,2 +1,4 @@
 # instagramlyfe
-asdasdasd
+initial commit
+Author : Fahmi
+Designer : Amanda
