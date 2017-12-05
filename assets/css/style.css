@@ -27,17 +27,30 @@ a:hover{
 	text-decoration:underline;
 }
 /*section*/
-.s-one{
-	background:url('../images/1-cover-bg.jpg') #ffffff top left 100% no-repeat;
+@media screen and (min-width: 481px) {
+	.s-one{
+		background:url('../images/1-cover-bg.jpg') #ffffff top left  no-repeat;
+		background-size:100%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.s-one{
+		padding-top:15%;
+		background:url('../images/1-cover-bg-mobile.jpg') #ffffff top left no-repeat;
+		background-size:contain;
+		height: 430px;
+	}
 }
 .s-five{
 	background:url('../images/4-cover-bg-2.jpg') #ffffff top left 100% no-repeat;
+	background-size:contain;
 }
 .s-six{
 	padding-top:5%;
 }
 .s-seven{
-	background:url('../images/5-cover-bg.jpg') #ffffff top left 100% no-repeat;
+	background:url('../images/5-cover-bg.jpg') #ffffff top left no-repeat;
+	background-size:contain;
 }
 .s-nine{
 	background:url('../images/6-bg.png') #ffffff top left 100% no-repeat;
@@ -48,9 +61,6 @@ a:hover{
 /*misc*/
 .bg-box{
 	background:url('../images/4-garis-7030.png')  center 100% no-repeat;
-}
-.f13{
-	font-size:13pt;
 }
 .img-res{
 	width: 55%;
@@ -81,7 +91,7 @@ a:hover{
 }
 .eggwave{
 	bottom:-7%;
-	left:-12%;
+	left:-11%;
 	width: 100%;
 	position:absolute;
 }
@@ -93,12 +103,6 @@ a:hover{
 	margin-top:7%;
 	margin-right:10%;
 	width:45%;
-}
-.img-res-title2{
-	width:40%;
-	bottom:20%;
-	left:5%;
-	position:absolute;
 }
 .title-s-one{
 	font-family: cactus;
@@ -141,6 +145,18 @@ a:hover{
 	.custom-align{
 		text-align: right!important;
 	}
+	.img-res-title2{
+		width:40%;
+		bottom:20%;
+		left:5%;
+		position:absolute;
+	}
+	.f13{
+		font-size:13pt;
+	}
+	.hidden-desk{
+		display:none;
+	}
 }
 @media screen and (max-width: 480px) {
 	.minusmtop{
@@ -148,6 +164,18 @@ a:hover{
 	}
 	.custom-align{
 		text-align: center!important;
+	}
+	.img-res-title2{
+		width:60%;
+		bottom:-50%;
+		left:20%;
+		position:absolute;
+	}
+	.f13{
+		font-size:2vh;
+	}
+	.hidden-mobile{
+		display:none;
 	}
 }
 .pos-relative{
