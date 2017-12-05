@@ -28,10 +28,27 @@ a:hover{
 }
 /*section*/
 .s-one{
-	background:url('../images/1-cover-bg.jpg') #ffffff top left 100%;
+	background:url('../images/1-cover-bg.jpg') #ffffff top left 100% no-repeat;
+}
+.s-five{
+	background:url('../images/4-cover-bg-2.jpg') #ffffff top left 100% no-repeat;
+}
+.s-six{
+	padding-top:5%;
+}
+.s-seven{
+	background:url('../images/5-cover-bg.jpg') #ffffff top left 100% no-repeat;
+}
+.s-nine{
+	background:url('../images/6-bg.png') #ffffff top left 100% no-repeat;
+	height:500px;
+	padding-top:7%;
 }
 /*!section*/
 /*misc*/
+.bg-box{
+	background:url('../images/4-garis-7030.png')  center 100% no-repeat;
+}
 .f13{
 	font-size:13pt;
 }
@@ -45,6 +62,37 @@ a:hover{
 	width: 80%;
 	top:12%;
 	position:absolute;
+}
+.img-res1-s5{
+	width: 45%;
+	top:20%;
+	left:3%;
+	position:absolute;
+}
+.img-res2-s5{
+	margin-top:11%;
+	width: 50%;
+}
+.img-res1-s6{
+	width:70%;
+}
+.img-res2-s6{
+	width:50%;
+}
+.eggwave{
+	bottom:-7%;
+	left:-12%;
+	width: 100%;
+	position:absolute;
+}
+.img-res1-s7{
+	margin-top:5%;
+	width:45%;
+}
+.img-res2-s7{
+	margin-top:7%;
+	margin-right:10%;
+	width:45%;
 }
 .img-res-title2{
 	width:40%;
@@ -90,10 +138,16 @@ a:hover{
 	.minusmtop{
 		margin-top:-5%!important;
 	}
+	.custom-align{
+		text-align: right!important;
+	}
 }
 @media screen and (max-width: 480px) {
 	.minusmtop{
 		margin-top:0!important;
+	}
+	.custom-align{
+		text-align: center!important;
 	}
 }
 .pos-relative{
